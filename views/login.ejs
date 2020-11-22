@@ -1,0 +1,18 @@
+<%- include("./partials/header") %>
+<h1>
+	Login
+</h1>
+<form method="POST" action="/login">
+	<input type="text" name="username" placeholder="User name">
+	<input type="password" name="password" placeholder="Password">
+	<button>Login</button>
+</form>
+
+
+<ul>
+	<li><a href="/register">Sign-up</a></li>
+	<li><a href="/login">Login</a></li>
+	<li><a href="/login">Log out</a></li>
+</ul>
+
+<%- include("./partials/footer") %>

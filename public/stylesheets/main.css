@@ -1,0 +1,26 @@
+.thumbnail img{
+	width: 100%;	
+}
+.thumbnail{
+	padding: 0;
+}
+.edit{
+	margin: 5px 0;
+	width: 100px;
+	float: left;
+}
+.delete{
+	margin: 5px 0;
+	width: 100px;
+	margin-left: 5px;
+}
+.editComment{
+	float: left;
+	margin-right: 5px;
+
+}
+.deleteComment{
+	display: inline;
+	border: none;
+	
+}
